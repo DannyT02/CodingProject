@@ -43,9 +43,10 @@ plt.plot(WaveLength, Energy, 'b-', label=f"Black Body at T = {T} K") #Plotting W
 plt.xlabel("Wavelength (nm)") #Labeling X axis
 plt.ylabel("Spectral Radiance (W/m³·sr)") #Labeling Y axsis
 plt.title("Planck Spectral Radiance vs Wavelength") #Labeling title of the Axis
-plt.legend() #Label the X and Y title 
 plt.grid(True) #Show grid
+plt.axvline(x=501.8, color='r', linestyle='--', label="Highest spectral radiance") # show the peak spectral intensity at wavelength
 plt.yscale('log')  # Log scale for better visualization
+plt.legend() #Label the X and Y title as well as red line
 plt.show()
 
 #part b
