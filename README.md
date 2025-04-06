@@ -1,2 +1,2 @@
 # CodingProject
-A list of project that I randomly do over the course of my University or during my free time
+This is Quantum Physics Assignment of Sem 2 2025 for Foundation physics for EEE
